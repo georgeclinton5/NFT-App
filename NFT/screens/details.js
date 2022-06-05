@@ -4,7 +4,7 @@ import React from 'react'
 export default function Details() {
   return (
     <View>
-      <Text>D</Text>
+      <Text style={{fontSize: 100}} >D</Text>
     </View>
   )
 }

@@ -7,14 +7,14 @@ export default function Hasasome() {
     return (
         <SafeAreaView style={{ flex: 1}}>
             <Status_Bar background={COLORS.primary} />
-            <View style={{flex: 1}}>
+            <View style={{flex: 1}} >
                 <View style={{zIndex: 0}}>
                     <FlatList
                         data = {NFTData}
-                        renderItem = {({item}) => <Text>{item.name}</Text>}
+                        renderItem = {({item}) => <Nft_card data={item} />}
                     />
                 </View>
             </View>
         </SafeAreaView>
     )
-}
+}   
