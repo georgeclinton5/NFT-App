@@ -31,10 +31,9 @@ export default function Nft_card({data}) {
                     }}
                 />
             </View>
-            <CircleButton imgUrl={assets.heart} />
+            <CircleButton imgUrl={assets.heart} right={10} top={10} />
             <SubInfo />
             <CardTitle data={data} />
-
             <View 
                 style={{
                     width: '100%',
@@ -46,7 +45,7 @@ export default function Nft_card({data}) {
                 }}
             >
                 <CardPrice data={data} />
-                <RectButton handlePress={() => navigation.navigate("Details", {data})}/>
+                <RectButton value={'Place a bid'} minWidth={170} handlePress={() => navigation.navigate("Details", {data})}/>
             </View>
         </View>
     )

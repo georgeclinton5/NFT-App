@@ -22,23 +22,14 @@ export function CardTitle({data}) {
 //CARD PRICE & BUTTON
 export function CardPrice({data}) {
     return (
-        <View 
-            // style={{
-            //     width: '100%',
-            //     marginBottom: SIZES.extraLarge,
-            //     paddingHorizontal: SIZES.font,
-            //     flexDirection:'row',
-            //     alignItems: 'flex-end',
-            //     justifyContent: 'space-between'
-            // }}
-        >
+        // <View>
             <View style={{flexDirection: 'row', alignItems: 'center'}}>
                 {/* <Image source={assets.eth} style={{height: 25, width: 25}} />
                 <Text style={{fontSize: SIZES.extraLarge, fontWeight: 'bold'}}>{data.price}</Text> */}
                 <Image source={assets.eth} style={{height: 20, width: 20}} />
                 <Text style={{fontSize: SIZES.large , fontWeight: 'bold'}}>{data.price}</Text>
             </View>
-        </View>
+        // </View>
     )
 }
 
@@ -69,7 +60,7 @@ export function EndTime() {
         <View 
             style={{
                 height: 50, 
-                width: 105, 
+                width: '35%', 
                 backgroundColor: COLORS.white, 
                 borderRadius: SIZES.font,
                 padding: SIZES.medium,

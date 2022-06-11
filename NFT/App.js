@@ -5,7 +5,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { useFonts } from 'expo-font';
 
 import Home from './screens/home'
-import Details from './screens/details'
+import {Details} from './screens/details'
 
 
 const Stack = createNativeStackNavigator();
