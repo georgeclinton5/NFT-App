@@ -57,4 +57,15 @@ export const SHADOWS = {
 
     elevation: 14,
   },
+  extradark: {
+    shadowColor: COLORS.primary,
+    shadowOffset: {
+      width: 0,
+      height: 5,
+    },
+    shadowOpacity: 0.91,
+    shadowRadius: 9.11,
+
+    elevation: 14,
+  },
 };
